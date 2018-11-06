@@ -20,8 +20,10 @@
         },
         methods:{
             addQuote(){
-                this.$emit('quoteAdded',  this.quote);
-                this.quote = '';
+                if(this.quote != ''){
+                    this.$emit('quoteAdded',  this.quote);
+                    this.quote = '';
+                }
             }
         },
         components: {

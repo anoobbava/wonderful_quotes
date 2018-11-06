@@ -2,6 +2,9 @@
 <div class="container">
   <app-new-quote @quoteAdded='updateQuote'></app-new-quote>
   <app-quote-grid :quotes="quoteData"></app-quote-grid>
+  <div class="alert alert-warning col-md-12 alert-note">
+    <strong>!!! click on the notes to delete that !!!</strong>
+  </div>
 </div>
   
 </template>
@@ -31,4 +34,11 @@ export default {
 </script>
 
 <style>
+  .alert-note{
+    text-align:  center;
+  }
+  .alert-note:hover{
+    color:darkblue;
+  
+  }
 </style>

@@ -15,14 +15,14 @@
     .panel-body{
         font-family: 'Arizonia', cursive;
         font-size: 30px;
-        color:darkgreen;
+        color: black;
 
     }
     .quote{
         cursor: pointer;
     }
     .quote:hover{
-        background-color:dodgerblue;
+        background-color:chocolate;
     }
 
 </style>
